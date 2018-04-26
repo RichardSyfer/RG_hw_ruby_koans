@@ -3,7 +3,7 @@ def score(dice)
 
   counts = Hash.new(0)
 
-  dice.each{ |num| counts[num] += 1 }
+  dice.each { |num| counts[num] += 1 }
 
   points = 0
 
